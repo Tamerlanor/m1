@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 1046px;
+    font-family: 'Roboto', Helvetica, sans-serif; color: black;       
+    background: #FFFFFF;        
+} 
+
+.ad-screen {
+    position: relative;
+    width: 1440px;
+    height: 1046px;
+    display: flex;
+    background: #FFFFFF;
+}
+
+.info-text {
+    position: absolute;
+    width: 662px;
+    height: 374px;
+    left: 124px;
+    top: 202px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    
+    
+    color: #000000;
+}
+
+.logo {
+    position: absolute;
+    width: 365px;
+    height: 93px;
+    left: 124px;
+    top: 91px;
+    background: red;
+}
+
+.lessons {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 488px;
+    top: 740px;
+    font-size: 25px;
+}
+
+.hours {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 733px;
+    top: 740px;
+    font-size: 25px;
+}
+
+.weeks {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 976px;
+    top: 740px;
+    font-size: 25px;
+}
+
+.subtext {
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+.sec {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 488px;
+    top: 780px;
+}
+
+.hou {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 733px;
+    top: 780px;
+}
+
+.wee {
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 976px;
+    top: 780px;
+}
+
+.pht {
+    position: absolute;
+    width: 232px;
+    height: 203px;
+    left: 124px;
+    top: 670px;
+}
+
+.pgh {
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 976px;
+    top: 226px;
+}
